@@ -29,7 +29,7 @@ Application appearance:
    ```
 2. Run the container:  
    ```sh
-   docker run -d -p 8000:8000 -e API_KEY_ARG=YOUR_API_KEY mateuszkozz/weather-flusk-app
+   docker run -d -p 8000:8000 -e API_KEY_ARG=YOUR_API_KEY mateuszkozz/weather-flusk-app:0.0.3
    ```
 3. The application will be available at: `http://localhost:8000`
 

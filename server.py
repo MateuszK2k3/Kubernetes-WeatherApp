@@ -1,18 +1,18 @@
 from flask import Flask, render_template, request
 from weather import get_current_weather
 from waitress import serve
-
+fes gsg sd
 app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
-def index():
+def index():g ds
     return render_template('index.html')
 
 @app.route("/weather")
 def get_weather():
     city = request.args.get('city')
-
+g sg
     #checking for empty string
     if not bool(city.strip()):
         city = "Warszawa"
